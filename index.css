@@ -1,0 +1,73 @@
+@import url(//db.onlinewebfonts.com/c/562fa31bba08b3f71cb71257ddb880d5?family=Verdana);
+@import url(//db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL);
+
+body {
+    margin: 0;
+    background-image: url(basketball.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    max-width: 575px;
+    width: 100%;
+    height: 410px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+    padding-left: 80px;
+}
+
+.display-text{
+    font-family: Verdana;
+    font-size: 40px;
+    color: #fff;
+}
+
+.display-score{
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.display-score h2{
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    color: #F94F6D;
+}
+
+.action-btn{
+    margin-top: 30px;
+}
+
+.action-btn button{
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    background-color: #1B244A;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    margin:0 5px;
+    cursor: pointer;
+}
+
+#reset-btn{
+    position: absolute;
+    bottom: 0;
+    left: 270px;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    cursor: pointer;
+}
+
